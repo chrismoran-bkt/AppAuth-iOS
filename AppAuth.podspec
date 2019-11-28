@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AppAuth"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "AppAuth for iOS and macOS is a client SDK for communicating with OAuth 2.0 and OpenID Connect providers."
 
   s.description  = <<-DESC
@@ -30,9 +30,9 @@ It follows the OAuth 2.0 for Native Apps best current practice
   #       classes of AppAuth with tokens on watchOS and tvOS, but currently the
   #       library won't help you obtain authorization grants on those platforms.
 
-  s.platforms    = { :ios => "7.0", :osx => "10.9", :watchos => "2.0", :tvos => "9.0" }
+  s.platforms    = { :ios => "9.0", :osx => "10.9", :watchos => "2.0", :tvos => "9.0" }
 
-  s.source       = { :git => "https://github.com/openid/AppAuth-iOS.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/chrismoran-bkt/AppAuth-iOS.git", :tag => s.version }
   s.requires_arc = true
 
   # Subspec for the core AppAuth library classes only, suitable for extensions.
@@ -48,7 +48,7 @@ It follows the OAuth 2.0 for Native Apps best current practice
     
     # iOS
     externalUserAgent.ios.source_files      = "Source/iOS/**/*.{h,m}"
-    externalUserAgent.ios.deployment_target = "7.0"
+    externalUserAgent.ios.deployment_target = "9.0"
     externalUserAgent.ios.frameworks        = "SafariServices"
     externalUserAgent.ios.weak_frameworks   = "AuthenticationServices"
 
