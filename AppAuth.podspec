@@ -19,10 +19,11 @@ It follows the OAuth 2.0 for Native Apps best current practice
 
                    DESC
 
-  s.homepage     = "https://openid.github.io/AppAuth-iOS"
+  s.homepage     = "https://github.com/chrismoran-bkt/AppAuth-iOS"
   s.license      = "Apache License, Version 2.0"
   s.authors      = { "William Denniss" => "wdenniss@google.com",
                      "Steven E Wright" => "stevewright@google.com",
+                     "Chris Moran" => "chris.moran@bakkt.com",
                    }
 
   # Note: While watchOS and tvOS are specified here, only iOS and macOS have
